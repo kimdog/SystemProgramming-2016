@@ -1,0 +1,1 @@
+cmd_/home/osta/SP_01/QUEUE/myqueue.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/osta/SP_01/QUEUE/myqueue.ko /home/osta/SP_01/QUEUE/myqueue.o /home/osta/SP_01/QUEUE/myqueue.mod.o

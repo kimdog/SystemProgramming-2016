@@ -1,0 +1,1 @@
+cmd_/home/osta/SP_01/procAPI/myproc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/osta/SP_01/procAPI/myproc.ko /home/osta/SP_01/procAPI/myproc.o /home/osta/SP_01/procAPI/myproc.mod.o
